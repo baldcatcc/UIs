@@ -54,7 +54,7 @@ end
 
 function Library:Create(xHubName,xGameName)
     local xHubName = xHubName or "UI Library"
-    local xGameName = xGameName or "baldcat#0015"
+    local xGameName = xGameName or "By baldcat#0015"
     local ScreenGui = Instance.new("ScreenGui")
     local Main = Instance.new("Frame")
     local MainCorner = Instance.new("UICorner")
@@ -80,8 +80,8 @@ function Library:Create(xHubName,xGameName)
 
     Main.Name = "Main"
     Main.Parent = ScreenGui
-    Main.BackgroundColor3 = Color3.fromRGB(41, 36, 58)
-    Main.Position = UDim2.new(0.278277636, 0, 0.281287253, 0
+    Main.BackgroundColor3 = Color3.fromRGB(31, 30, 46)
+    Main.Position = UDim2.new(0.278277636, 0, 0.281287253, 0)
     Main.Size = UDim2.new(0, 580, 0, 370)
 
     MainCorner.CornerRadius = UDim.new(0, 12)
